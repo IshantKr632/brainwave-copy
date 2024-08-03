@@ -37,6 +37,7 @@ const Hero = () => {
                         Brainwave
                         <img src="https://jsm-brainwave.com/assets/curve-DplsLMf8.png" alt="" className='xl:max-w-[330px] lg:max-w-[320px] md:max-w-[240px] sm:max-w-[200px] max-w-[210px]' />
                     </span>
+                    <data value=""></data>
                 </h1>
 
                 <p className='body-1 text-n-2 max-w-3xl mx-auto mb-4'>
