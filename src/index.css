@@ -99,3 +99,13 @@
     padding-bottom: 1.65rem;
   }
 }
+.one {
+  place-items: center;
+  grid-gap: 1rem;
+}
+
+
+.u {
+  place-items: center;
+  -ms-grid-row-align: center;
+}
