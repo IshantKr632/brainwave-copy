@@ -109,3 +109,7 @@
   place-items: center;
   -ms-grid-row-align: center;
 }
+
+.y:hover .x {
+  @apply md:opacity-20;
+}

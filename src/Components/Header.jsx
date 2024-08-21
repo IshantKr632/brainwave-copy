@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <div>
-      <div className={`fixed top-0 left-0 right-0 px-4 py-6 z-[1000] border-b border-b-n-6 bg-n-8 backdrop-blur-lg flex items-center justify-between w-full ${navActive ? "" : "bg-n-8/80"}`}>
+      <div className={`fixed top-0 left-0 right-0 px-4 py-6 z-[1100] border-b border-b-n-6 bg-n-8 backdrop-blur-lg flex items-center justify-between w-full ${navActive ? "" : "bg-n-8/80"}`}>
         <div className='logo inline-flex w-auto h-auto'>
           <img src="https://jsm-brainwave.com/assets/brainwave-DM3_Zh2I.svg" alt="" />
         </div>
@@ -56,7 +56,7 @@ const Header = () => {
 
       </div>
 
-      <div className={`fixed top-[5.8rem] left-0 h-full w-full bg-n-8 z-[100] backdrop-blur-none transition-colors ${navActive ? "" : "left-[-200rem] transition-colors"} text-center py-1`}>
+      <div className={`fixed top-[5.8rem] left-0 h-full w-full bg-n-8 z-[1000] backdrop-blur-none transition-colors ${navActive ? "" : "left-[-200rem] transition-colors"} text-center py-1`}>
         <div className='flex flex-col  items-center text-center justify-between h-[80%]'>
           {navigation.map((item) => (
             <a href={item.url} key={item.id} onClick={closeNav} className={`${item.onlyMobile ? "lg:hidden" : ""} ${item.url === hash ? "text-color-1" : "text-n-1"} relative block font-code text-2xl uppercase transition-colors  z-[101] i active:text-cyan-300`}>{item.title}</a>
