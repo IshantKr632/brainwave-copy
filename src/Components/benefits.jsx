@@ -2,6 +2,7 @@ import React from 'react';
 import SectionSvg from '../assets/svg/SectionSvg';
 import { benefit } from './my';
 import { benefitIcon1 } from '../assets';
+import { benefitIcon2, benefitIcon3, benefitIcon4 } from '../assets';
 import { IoIosArrowForward } from "react-icons/io";
 
 const Benifits = () => {
@@ -55,7 +56,7 @@ const Benifits = () => {
                 <h2 className='h2'>Chat Smarter, Not Harder with Brainwave</h2>
             </div>
 
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full lg:px-[9rem] md:px-[7rem] px-4 gap-4 py-[5em]'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full lg:px-[9rem] md:px-[7rem] px-4 gap-16 py-[5em]'>
                 <div className='bg-n-8 border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
                     <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://jsm-brainwave.com/assets/image-2-DhSZK1Xt.png')" }}></div>
                     <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
@@ -73,8 +74,98 @@ const Benifits = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className='bg-n-8 border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
+                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://jsm-brainwave.com/assets/image-2-DhSZK1Xt.png')" }}></div>
+                    <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
+                        <div className='flex flex-col gap-4 text-left'>
+                            <h5 className='h5'>Improve everyday</h5>
+                            <p className='text-n-3 body-2'>The app uses natural language processing to understand user queries and provide accurate and relevant responses.</p>
+                        </div>
+
+                        <div className='flex items-center justify-between'>
+                            <img src={benefitIcon2} alt="" />
+                            <a href="#pricing" className='flex items-center justify-center gap-4 tracking-wider font-code uppercase font-bold text-xs text-n-1'>
+                                Explore More
+                                <IoIosArrowForward className='text-xl' />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='bg-n-8 border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
+                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://jsm-brainwave.com/assets/image-2-DhSZK1Xt.png')" }}></div>
+                    <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
+                        <div className='flex flex-col gap-4 text-left'>
+                            <h5 className='h5'>Connect everywhere</h5>
+                            <p className='text-n-3 body-2'>Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.</p>
+                        </div>
+
+                        <div className='flex items-center justify-between'>
+                            <img src={benefitIcon3} alt="" />
+                            <a href="#pricing" className='flex items-center justify-center gap-4 tracking-wider font-code uppercase font-bold text-xs text-n-1'>
+                                Explore More
+                                <IoIosArrowForward className='text-xl' />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='bg-n-8 border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
+                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://jsm-brainwave.com/assets/image-2-DhSZK1Xt.png')" }}></div>
+                    <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
+                        <div className='flex flex-col gap-4 text-left'>
+                            <h5 className='h5'>Fast responding</h5>
+                            <p className='text-n-3 body-2'>Lets users quickly find answers to their questions without having to search through multiple sources.</p>
+                        </div>
+
+                        <div className='flex items-center justify-between'>
+                            <img src={benefitIcon4} alt="" />
+                            <a href="#pricing" className='flex items-center justify-center gap-4 tracking-wider font-code uppercase font-bold text-xs text-n-1'>
+                                Explore More
+                                <IoIosArrowForward className='text-xl' />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='bg-n-8 border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
+                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://jsm-brainwave.com/assets/image-2-DhSZK1Xt.png')" }}></div>
+                    <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
+                        <div className='flex flex-col gap-4 text-left'>
+                            <h5 className='h5'>Ask anything</h5>
+                            <p className='text-n-3 body-2'>Lets users quickly find answers to their questions without having to search through multiple sources.</p>
+                        </div>
+
+                        <div className='flex items-center justify-between'>
+                            <img src={benefitIcon1} alt="" />
+                            <a href="#pricing" className='flex items-center justify-center gap-4 tracking-wider font-code uppercase font-bold text-xs text-n-1'>
+                                Explore More
+                                <IoIosArrowForward className='text-xl' />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='bg-n-8 border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
+                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://jsm-brainwave.com/assets/image-2-DhSZK1Xt.png')" }}></div>
+                    <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
+                        <div className='flex flex-col gap-4 text-left'>
+                            <h5 className='h5'>Improve everyday</h5>
+                            <p className='text-n-3 body-2'>The app uses natural language processing to understand user queries and provide accurate and relevant responses.</p>
+                        </div>
+
+                        <div className='flex items-center justify-between'>
+                            <img src={benefitIcon2} alt="" />
+                            <a href="#pricing" className='flex items-center justify-center gap-4 tracking-wider font-code uppercase font-bold text-xs text-n-1'>
+                                Explore More
+                                <IoIosArrowForward className='text-xl' />
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
+
         </Section>
     )
 }
