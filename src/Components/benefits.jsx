@@ -4,6 +4,8 @@ import { benefit } from './my';
 import { benefitIcon1 } from '../assets';
 import { benefitIcon2, benefitIcon3, benefitIcon4 } from '../assets';
 import { IoIosArrowForward } from "react-icons/io";
+import { GradientLight } from './designbenefit';
+import { GradientLightTwo } from './designbenefit';
 
 const Benifits = () => {
     const Section = ({
@@ -51,13 +53,13 @@ const Benifits = () => {
     }
 
     return (
-        <Section crosses crossesOffset="lg:translate-y-[2rem]" customPaddings className={`flex flex-col items-center pt-[6rem] text-center px-4`}>
+        <Section crosses crossesOffset="lg:translate-y-[2rem]" customPaddings className={`flex flex-col items-center pt-[6rem] text-center px-4`} id='features'>
             <div className='lg:max-w-2xl md:max-w-md'>
                 <h2 className='h2'>Chat Smarter, Not Harder with Brainwave</h2>
             </div>
 
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 w-full lg:px-[9rem] md:px-[7rem] px-4 gap-16 py-[5em]'>
-                <div className='bg-n-8 border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
+            <div className='md:grid lg:grid-cols-3 md:grid-cols-2 flex flex-col  gap-8 lg:px-[6rem] md:px-[3rem] py-[5rem]'>
+                <div className='bg-n-8 border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden z-[100]'>
                     <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://jsm-brainwave.com/assets/image-2-DhSZK1Xt.png')" }}></div>
                     <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
                         <div className='flex flex-col gap-4 text-left'>
@@ -75,8 +77,8 @@ const Benifits = () => {
                     </div>
                 </div>
 
-                <div className='bg-n-8 border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
-                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://jsm-brainwave.com/assets/image-2-DhSZK1Xt.png')" }}></div>
+                <div className='bg-n-8 z-[100] border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
+                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transform rotate-360 transition-opacity' style={{ backgroundImage: "url('https://th.bing.com/th/id/OIG4.cCgeITtEhRDQ7GcF_DtE?w=1024&h=1024&rs=1&pid=ImgDetMain')" }}></div>
                     <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
                         <div className='flex flex-col gap-4 text-left'>
                             <h5 className='h5'>Improve everyday</h5>
@@ -93,8 +95,8 @@ const Benifits = () => {
                     </div>
                 </div>
 
-                <div className='bg-n-8 border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
-                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://jsm-brainwave.com/assets/image-2-DhSZK1Xt.png')" }}></div>
+                <div className='bg-n-8 z-[100] border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
+                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://th.bing.com/th/id/OIG4.k8dXaa3OFo1x6s4o4HAq?pid=ImgGn')" }}></div>
                     <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
                         <div className='flex flex-col gap-4 text-left'>
                             <h5 className='h5'>Connect everywhere</h5>
@@ -111,8 +113,8 @@ const Benifits = () => {
                     </div>
                 </div>
 
-                <div className='bg-n-8 border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
-                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://jsm-brainwave.com/assets/image-2-DhSZK1Xt.png')" }}></div>
+                <div className='bg-n-8 z-[100] border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
+                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://th.bing.com/th/id/OIG1.wIqdUWDIgPfCXCrC3Nzt?w=1024&h=1024&rs=1&pid=ImgDetMain')" }}></div>
                     <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
                         <div className='flex flex-col gap-4 text-left'>
                             <h5 className='h5'>Fast responding</h5>
@@ -129,8 +131,8 @@ const Benifits = () => {
                     </div>
                 </div>
 
-                <div className='bg-n-8 border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
-                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://jsm-brainwave.com/assets/image-2-DhSZK1Xt.png')" }}></div>
+                <div className='bg-n-8 z-[100] border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
+                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://th.bing.com/th/id/OIG1.cpaDuPZfSF_PvVyfYKwX?pid=ImgGn')" }}></div>
                     <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
                         <div className='flex flex-col gap-4 text-left'>
                             <h5 className='h5'>Ask anything</h5>
@@ -147,8 +149,8 @@ const Benifits = () => {
                     </div>
                 </div>
 
-                <div className='bg-n-8 border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
-                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://jsm-brainwave.com/assets/image-2-DhSZK1Xt.png')" }}></div>
+                <div className='bg-n-8 z-[100]x border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
+                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://th.bing.com/th/id/OIG1.g4xamaLs0VdhKQEhIonC?pid=ImgGn')" }}></div>
                     <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
                         <div className='flex flex-col gap-4 text-left'>
                             <h5 className='h5'>Improve everyday</h5>
@@ -166,6 +168,8 @@ const Benifits = () => {
                 </div>
             </div>
 
+            <GradientLight />
+            <GradientLightTwo />
         </Section>
     )
 }
