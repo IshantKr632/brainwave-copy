@@ -113,3 +113,21 @@
 .y:hover .x {
   @apply md:opacity-20;
 }
+
+@media only screen and (max-width: 400px) {
+  .c {
+    @apply scale-75;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .his {
+    @apply px-4;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .his {
+    @apply px-8;  
+  }
+}

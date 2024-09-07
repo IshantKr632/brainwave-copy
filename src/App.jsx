@@ -3,6 +3,8 @@ import Header from './Components/Header';
 import ButtonGradient from './assets/svg/ButtonGradient';
 import Hero from './Components/Hero';
 import Benifits from './Components/benefits';
+import Collabration from './Components/Collabration';
+import Services from './Components/Services';
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
         <Header />
         <Hero />
         <Benifits />
+        <Collabration />
+        <Services />
       </div>
 
       <ButtonGradient />
