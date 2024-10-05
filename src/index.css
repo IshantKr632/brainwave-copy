@@ -14,6 +14,7 @@
 
 * {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 @layer base {
@@ -130,4 +131,102 @@
   .his {
     @apply px-8;  
   }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.one {
+  filter: drop-shadow(10px 200px 200px #2d0064);
+}
+
+@media only screen and (max-width: 600px) {
+  .one {
+    filter: drop-shadow(10px 10px 30px #2d0064)
+  }
+}
+
+
+
+.q {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 900px) {
+  .q {
+    object-position: right;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .one {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .one {
+    height: 100%;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media only screen and (max-width: 385px) {
+  .hectic {
+    @apply top-0 right-1;
+  }
+}
+
+.ace {
+  position: relative;
+  padding: 1.2rem;
+  border-radius: 15px;
+  background: linear-gradient(to right, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876);
+}
+
+.ace::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+  background-color:  rgb(14 12 21 / var(--tw-bg-opacity)); /* Background color of the inner content */
+  border-radius: 13px;
+  z-index: 0; /* Lower the z-index to stay behind the content */
+}
+
+.ace img {
+  position: relative;
+  z-index: 1; /* Ensure the image appears above the pseudo-element */
+}
+
+.mine {
+  background: url("https://jsm-brainwave.com/assets/service-3-CruucQ7U.png");
+  background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
 }
