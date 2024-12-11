@@ -5,6 +5,8 @@ import Hero from './Components/Hero';
 import Benifits from './Components/benefits';
 import Collabration from './Components/Collabration';
 import Services from './Components/Services';
+import Pricing from './Components/Pricing';
+import Roadmap from './Components/Roadmap';
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
         <Benifits />
         <Collabration />
         <Services />
+        <Pricing />
+        <Roadmap />
       </div>
 
       <ButtonGradient />
