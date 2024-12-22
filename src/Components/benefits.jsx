@@ -78,7 +78,7 @@ const Benifits = () => {
                 </div>
 
                 <div className='bg-n-8 z-[100] border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
-                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transform rotate-360 transition-opacity' style={{ backgroundImage: "url('https://th.bing.com/th/id/OIG4.cCgeITtEhRDQ7GcF_DtE?w=1024&h=1024&rs=1&pid=ImgDetMain')" }}></div>
+                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transform rotate-360 transition-opacity' style={{ backgroundImage: "url('https://i.ibb.co/zRHBPWb/Designer-5.jpg')" }}></div>
                     <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
                         <div className='flex flex-col gap-4 text-left'>
                             <h5 className='h5'>Improve everyday</h5>
@@ -96,7 +96,7 @@ const Benifits = () => {
                 </div>
 
                 <div className='bg-n-8 z-[100] border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
-                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://th.bing.com/th/id/OIG4.k8dXaa3OFo1x6s4o4HAq?pid=ImgGn')" }}></div>
+                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://i.ibb.co/sPZkWGk/Designer-6.jpg')" }}></div>
                     <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
                         <div className='flex flex-col gap-4 text-left'>
                             <h5 className='h5'>Connect everywhere</h5>
@@ -114,7 +114,7 @@ const Benifits = () => {
                 </div>
 
                 <div className='bg-n-8 z-[100] border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
-                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://th.bing.com/th/id/OIG1.wIqdUWDIgPfCXCrC3Nzt?w=1024&h=1024&rs=1&pid=ImgDetMain')" }}></div>
+                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://i.ibb.co/9sq2ksh/Designer-7.jpg')" }}></div>
                     <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
                         <div className='flex flex-col gap-4 text-left'>
                             <h5 className='h5'>Fast responding</h5>
@@ -132,7 +132,7 @@ const Benifits = () => {
                 </div>
 
                 <div className='bg-n-8 z-[100] border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
-                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://th.bing.com/th/id/OIG1.cpaDuPZfSF_PvVyfYKwX?pid=ImgGn')" }}></div>
+                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://i.ibb.co/sWd1kYH/Designer-8.jpg')" }}></div>
                     <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
                         <div className='flex flex-col gap-4 text-left'>
                             <h5 className='h5'>Ask anything</h5>
@@ -150,7 +150,7 @@ const Benifits = () => {
                 </div>
 
                 <div className='bg-n-8 z-[100]x border border-slate-950 rounded-[10px] w-auto h-[18rem] relative block y overflow-hidden'>
-                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://th.bing.com/th/id/OIG1.g4xamaLs0VdhKQEhIonC?pid=ImgGn')" }}></div>
+                    <div className='absolute inset-0 bg-cover bg-center x md:opacity-0 opacity-30 border md:border-transparent rounded-[10px] transition-opacity' style={{ backgroundImage: "url('https://i.ibb.co/CzJGfR9/Designer-9.jpg')" }}></div>
                     <div className='relative flex flex-col justify-between w-full h-full px-4 py-4'>
                         <div className='flex flex-col gap-4 text-left'>
                             <h5 className='h5'>Improve everyday</h5>

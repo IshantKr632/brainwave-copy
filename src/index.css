@@ -291,10 +291,21 @@
   font-size: 1.6rem;
 }
 
-.ui {
-  background-image: url("https://i.ibb.co/X5x9Vnf/grid.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: brightness(1.75);
+.choco {
+  background-image: conic-gradient( from 225deg at 50% 50%, #f12711, #f5af19, #f5af19, #f12711);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.6rem;
+}
+
+.choco-2 {
+  background-image: conic-gradient( from 225deg at 50% 50%, #f5af19, #f12711, #f12711, #f5af19);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.6rem;
+}
+
+.as {
+  box-shadow: 0 8px 50px 0 rgba(31, 38, 135, 0.37);
+  animation: rotate 2s linear infinite;
 }
